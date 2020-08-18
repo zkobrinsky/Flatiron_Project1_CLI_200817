@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T14:34:04.885Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="txDPmYWuJHcDt0EUwKTF" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T14:36:53.077Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="h-CVtVyEZHfrDLZX689H" version="13.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1284" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -83,7 +83,7 @@
             <mxPoint x="707" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WV5NvqGCyLJuAwGKfBsl-206" value="Displays current Earth weather compared to last recorded day of Martian Weather" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="WV5NvqGCyLJuAwGKfBsl-206" value="Displays current Earth weather compared to last recorded day of Martian Weather (default preferences)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="500" y="325" width="140" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-219" value="MartianWeather class" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
@@ -101,11 +101,21 @@
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-238" value="Stores both Martian and Earth weather data by Earth day" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="390" y="765" width="120" height="60" as="geometry" />
         </mxCell>
+        <mxCell id="WV5NvqGCyLJuAwGKfBsl-267" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WV5NvqGCyLJuAwGKfBsl-247" target="WV5NvqGCyLJuAwGKfBsl-264">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-247" value="Displays last week of weather data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="980" y="317" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-256" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WV5NvqGCyLJuAwGKfBsl-248" target="WV5NvqGCyLJuAwGKfBsl-255">
-          <mxGeometry relative="1" as="geometry" />
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="940" y="360" />
+              <mxPoint x="940" y="589" />
+              <mxPoint x="790" y="589" />
+              <mxPoint x="790" y="775" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-248" value="Options" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="707" y="317" width="173" height="116" as="geometry" />
@@ -131,11 +141,33 @@
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WV5NvqGCyLJuAwGKfBsl-250" target="hiW3JRpMc0o0yXaNf7gS-0">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="690" y="388" />
-              <mxPoint x="690" y="200" />
+              <mxPoint x="920" y="388" />
+              <mxPoint x="920" y="200" />
               <mxPoint x="270" y="200" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="WV5NvqGCyLJuAwGKfBsl-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WV5NvqGCyLJuAwGKfBsl-251" target="WV5NvqGCyLJuAwGKfBsl-206">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="900" y="418" />
+              <mxPoint x="900" y="180" />
+              <mxPoint x="410" y="180" />
+              <mxPoint x="410" y="375" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WV5NvqGCyLJuAwGKfBsl-263" value="Options" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1154" y="317" width="173" height="116" as="geometry" />
+        </mxCell>
+        <mxCell id="WV5NvqGCyLJuAwGKfBsl-264" value="Compare last 5 days?" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="WV5NvqGCyLJuAwGKfBsl-263">
+          <mxGeometry y="26" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WV5NvqGCyLJuAwGKfBsl-265" value="Compare a different zip code?" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="WV5NvqGCyLJuAwGKfBsl-263">
+          <mxGeometry y="56" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WV5NvqGCyLJuAwGKfBsl-266" value="Change preferences?" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;" vertex="1" parent="WV5NvqGCyLJuAwGKfBsl-263">
+          <mxGeometry y="86" width="173" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
