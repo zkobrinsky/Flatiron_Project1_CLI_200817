@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-08-18T14:45:27.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="fmp_Bcgoi2QmUTxb9UxG" version="13.6.2" type="github">
+<mxfile host="app.diagrams.net" modified="2020-08-18T14:45:59.165Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.125 Safari/537.36" etag="lqr-lpHVqioexNRlK412" version="13.6.2" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="1284" dy="833" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -114,15 +114,14 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-247" value="Displays last week of weather data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="980" y="317" width="120" height="40" as="geometry" />
+          <mxGeometry x="980" y="333" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-256" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WV5NvqGCyLJuAwGKfBsl-248" target="WV5NvqGCyLJuAwGKfBsl-255">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="940" y="360" />
               <mxPoint x="940" y="589" />
-              <mxPoint x="790" y="589" />
-              <mxPoint x="790" y="775" />
+              <mxPoint x="810" y="589" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -139,7 +138,7 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-255" value="Gets all day instances to compare" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="810" y="775" width="120" height="60" as="geometry" />
+          <mxGeometry x="810" y="790" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="WV5NvqGCyLJuAwGKfBsl-259" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="WV5NvqGCyLJuAwGKfBsl-250" target="hiW3JRpMc0o0yXaNf7gS-0">
           <mxGeometry relative="1" as="geometry">
